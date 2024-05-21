@@ -75,4 +75,25 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    font-family: "Montserrat", sans-serif;
+    @apply text-center selection:bg-sky-600 selection:text-white;
+    @apply overflow-auto;
+  }
+}
+
+h1 {
+  @apply text-4xl font-bold pt-10;
+}
+
+h2 {
+  @apply text-3xl font-bold pt-5;
+}
+
+h3 {
+  @apply text-2xl font-semibold pt-3;
+}
+
+h4 {
+  @apply text-xl font-medium;
 }
